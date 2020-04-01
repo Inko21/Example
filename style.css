@@ -1,0 +1,46 @@
+body {
+    background: url('img/picture2_hr-business-partn_340541_p0.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    margin-right: 180px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li:hover {
+    border-bottom: 2px solid red;
+}
+
+
+.menu .link {
+    text-decoration: none
+    color: black;
+    font-size: 30px;
+}
+
+.menu .link:hover {
+    color: grey;
+}
+
+
+.menu .link:hover {
+    color: rgb(211, 0, 0);
+}
+
+@media (min-width 360px && max-width 1439px){
+    
+}
+
+@media (min-width 1440px && max-width 2280px){
+
+}
